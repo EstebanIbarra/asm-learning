@@ -62,7 +62,7 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 
 - The repo is divided by 32 or 64 bit architectures, the same exercises will be present in both.
 - For each excercise a README containing a resume and the minimal theory needed to understand the exercise.
-- For each excercise a build sccript will be provided to simplify the build process. Be sure to read the script as it contains the instructions to follow in case you want to build the exercises manually.
+- For each excercise a Makefile will be provided to simplify the build process. Be sure to read the Makefile as it contains the instructions to follow in case you want to build the exercises manually.
 - The code will be commented for any new directives and instructions present in the exercise.
 
 ## Exercise Index

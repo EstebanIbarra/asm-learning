@@ -9,30 +9,36 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 ### Vagrant Environment (Prefered for MacOS users)
 
 1. Install Homebrew (Recommended, MacOS only)
-    - Instructions can be found in <https://brew.sh/>
-2. Install VirtualBox v^7. For Windows instructions please refer to: <https://www.virtualbox.org/>
+    - Instructions can be found in the [Homebrew](https://brew.sh/) page
+2. Install VirtualBox v^7. For Windows instructions please refer to the official [Virtualbox](https://www.virtualbox.org/) website
     - Open a terminal
-    - Run "brew install virtualbox" (MacOS only)
-3. Install Vagrant. For Windows instructions please refer to: <https://www.vagrantup.com/>
+    - Run `brew install virtualbox` (MacOS only)
+3. Install Vagrant. For Windows instructions please refer to the official [Vagrant](https://www.vagrantup.com/) website
     - Open a terminal (if not already)
-    - Run "brew install vagrant" (MacOS only)
+    - Run `brew install vagrant` (MacOS only)
 
 ### WSL Environment (Prefered for Windows users)
 
 1. Install WSL
 2. Install a Linux distribution of your choice
 3. Inside WSL run the following commands:
-    - sudo apt-get update
-    - sudo apt-get upgrade
-    - sudo apt-get install libc6-dev-i386
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install libc6-dev-i386
+    ```
 
 ### Linux Environment (Native)
 
 1. Open a terminal
 2. Run the following commands:
-    - sudo apt-get update
-    - sudo apt-get upgrade
-    - sudo apt-get install libc6-dev-i386
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install libc6-dev-i386
+    ```
 
 ## Environment Setup
 
@@ -40,8 +46,8 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 
 1. Open a terminal (if not already)
 2. Clone the repo in a desired location
-3. Run "vagrant up" inside any directory of the project
-4. SSH into the Vagrant VM by running "vagrant ssh"
+3. Run `vagrant up` inside any directory of the project
+4. SSH into the Vagrant VM by running `vagrant ssh`
 
 ### WSL Environment
 
@@ -61,5 +67,7 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 
 ## Exercise Index
 
-1. Hello World exercise
-2. String input/output
+1. Hello World
+    - [32 bits](./32bit/helloWorld/)
+2. Writing strings to stack
+3. Pushing strings to stack

@@ -1,4 +1,8 @@
 # x86 (32bit) Assembly - Hello World
+# Goals:
+#   1. Create an exit System Call
+#   2. Write a string from the stack to stdout
+
 .global _start
 .intel_syntax
 # Anything inside .section .text is r+x only, it's used for the instructions to be executed by the processor

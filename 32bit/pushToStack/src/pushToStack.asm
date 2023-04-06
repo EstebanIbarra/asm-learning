@@ -17,7 +17,7 @@ _start:
 # Write the string in the stack to stdout
     mov %eax, 0x04
     mov %ebx, 0x01  # 1 => stdout
-    mov %ecx, %esp
+    mov %ecx, %esp  # Moves the value of %esp to the %ecx registry
     mov %edx, 0x04
     int 0x80
 

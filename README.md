@@ -70,4 +70,7 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 1. Hello World
     - [32 bits](./32bit/helloWorld/)
 2. Writing strings to stack
+    - [32 bits](./32bit/writeToStack/)
 3. Pushing strings to stack
+    - [32 bits](./32bit/pushToStack/)
+4. Read from stdin

@@ -4,6 +4,9 @@ This Repository is meant to be used for learning Assembly in x86 architecture fo
 
 ## Pre-requisites
 
+- Basic Unix-like terminal usage
+- Basic to intermediate programming knowledge
+
 Note: A Debian-based distribution was used for this exercises and instructions, if you prefer a non-Debian-based distribution, you should adapt the commands accordingly.
 
 ### Vagrant Environment (Prefered for MacOS users)
@@ -23,22 +26,22 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 2. Install a Linux distribution of your choice
 3. Inside WSL run the following commands:
 
-    ```bash
+```shell
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get install libc6-dev-i386
-    ```
+```
 
 ### Linux Environment (Native)
 
 1. Open a terminal
 2. Run the following commands:
 
-    ```bash
+```shell
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get install libc6-dev-i386
-    ```
+```
 
 ## Environment Setup
 

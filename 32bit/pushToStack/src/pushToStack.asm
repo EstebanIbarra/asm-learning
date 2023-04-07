@@ -12,7 +12,7 @@ _start:
 # %esp => Memory slot where the stack is currently storing data
 
 # Write a string to the stack
-    push 0x0a434241    # Moves to the pointer %esp the dword size (4 bytes) value of 0x0a434241 (ABC\n)
+    push 0x0a434241    # Pushes the value of 0x0a434241 (ABC\n) to the stack
 
 # Write the string in the stack to stdout
     mov %eax, 0x04

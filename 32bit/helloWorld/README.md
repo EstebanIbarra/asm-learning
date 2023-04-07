@@ -30,13 +30,13 @@ Although a Makefile is provided, you're free and highly encouraged to build the 
 For the instructions here, we'll be using `gcc` to link the object returned by the assembler, but you're also encouraged to try to use `ld` to learn an alternative way to link the object files and obtain a functional executable.
 
 ```shell
-    cd $(PROJECT_DIRECTORY)/32bit/$(EXERCISE)
-    # If build folder doesnt exists:
-    mkdir build
-    # Assembles our Assembly code into a Object file
-    as src/$(EXERCISE).asm --32 -o build/$(EXERCISE).o
-    # Links one or more Object files and builds an executable file
-    gcc -o build/$(EXERCISE) -m32 build/$(EXERCISE).o -nostdlib -no-pie
+cd $(PROJECT_DIRECTORY)/32bit/$(EXERCISE)
+# If build folder doesnt exists:
+mkdir build
+# Assembles our Assembly code into a Object file
+as src/$(EXERCISE).asm --32 -o build/$(EXERCISE).o
+# Links one or more Object files and builds an executable file
+gcc -o build/$(EXERCISE) -m32 build/$(EXERCISE).o -nostdlib -no-pie
 ```
 
 In the previous example we can appreciate the command `as src/$(EXERCISE).asm --32 -o build/$(EXERCISE).o` uses `as` assembler which expects several parameters:
@@ -61,10 +61,10 @@ For more parameters and a better usage explanation you can always type `man gcc`
 The short version in which you can build the exercises in this repo is by using `make` with the following steps:
 
 ```shell
-    cd $(PROJECT_DIRECTORY)/32bit/$(EXERCISE)
-    # If build folder exists
-    make clean
-    make
+cd $(PROJECT_DIRECTORY)/32bit/$(EXERCISE)
+# If build folder exists
+make clean
+make
 ```
 
 `make` uses a file called `Makefile` with all the instructions needed to build the program automatically

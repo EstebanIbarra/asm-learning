@@ -27,9 +27,9 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 3. Inside WSL run the following commands:
 
 ```shell
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get install libc6-dev-i386
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libc6-dev-i386
 ```
 
 ### Linux Environment (Native)
@@ -38,9 +38,9 @@ Note: A Debian-based distribution was used for this exercises and instructions, 
 2. Run the following commands:
 
 ```shell
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get install libc6-dev-i386
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libc6-dev-i386
 ```
 
 ## Environment Setup

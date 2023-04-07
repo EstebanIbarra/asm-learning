@@ -20,6 +20,8 @@ For the first excercise, we'll create a program that prints "Hello World!" to th
 
 ### General Structure of an Assembly Program
 
+### System Calls
+
 ## Build procedure
 
 For your convenience, a Makefile is provided so that all the excercises can be easily built and tested.

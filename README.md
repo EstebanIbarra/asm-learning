@@ -49,8 +49,12 @@ sudo apt-get install libc6-dev-i386
 
 1. Open a terminal (if not already)
 2. Clone the repo in a desired location
-3. Run `vagrant up` inside any directory of the project
-4. SSH into the Vagrant VM by running `vagrant ssh`
+3. Run the following commands:
+
+```shell
+vagrant up
+vagrant ssh
+```
 
 ### WSL Environment
 

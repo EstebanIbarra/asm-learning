@@ -4,7 +4,7 @@
 PROGRAM_NAME = writeToStack
 SOURCE_DIR = src
 BUILD_DIR = build
-COMPILER_FLAGS = -nostdlib -no-pie
+COMPILER_FLAGS = -nostdlib -no-pie -g
 
 $(BUILD_DIR)/$(PROGRAM_NAME): $(BUILD_DIR)/$(PROGRAM_NAME).o
 	@echo "=> Linking the binary \"$<\":"

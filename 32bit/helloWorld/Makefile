@@ -8,7 +8,7 @@ SOURCE_DIR = src
 BUILD_DIR = build
 
 # This line defines the compiler flags
-COMPILER_FLAGS = -nostdlib -no-pie
+COMPILER_FLAGS = -nostdlib -no-pie -g
 
 # $< will point to the first file in the dependency chain
 # $@ will point to the last file in the dependency chain

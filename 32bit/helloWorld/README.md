@@ -20,11 +20,11 @@ For the first excercise, we'll create a program that prints "Hello World!" to th
 
 ### General Structure of an Assembly Program
 
-### Build procedure
+## Build procedure
 
 For your convenience, a Makefile is provided so that all the excercises can be easily built and tested.
 
-#### Using Bash
+### Using Bash
 
 Although a Makefile is provided, you're free and highly encouraged to build the solutions using bash commands to understand clearly how a simple Assembly program is built.
 For the instructions here, we'll be using `gcc` to link the object returned by the assembler, but you're also encouraged to try to use `ld` to learn an alternative way to link the object files and obtain a functional executable.
@@ -56,7 +56,7 @@ After the assembler returns the Object file we need to link this Object file(s) 
 
 For more parameters and a better usage explanation you can always type `man gcc` in the terminal to access the manual for this program.
 
-#### Using Make
+### Using Make
 
 The short version in which you can build the exercises in this repo is by using `make` with the following steps:
 

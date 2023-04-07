@@ -25,10 +25,12 @@ bufread:    mov %eax, 0x03      # Read syscall
             mov %edx, 0x04      # Length of the buffer
             int 0x80
 
+# Write buffer to stack (NOT WORKING)
 #            mov dword ptr [%esp], %ecx
-            push buffer
+#            push buffer
             jmp result
 
+# Loops indefinitely (Not supposed to)
             cmp %eax, 0
             jle result
 
@@ -48,6 +50,10 @@ printmsg:   mov %eax, 0x04
             mov %edx, 0x04
             int 0x80
 
+            lea %ecx, [eol]
+            mov %edx, 0x01
+            int 0x80
+
 # Exit syscall
 exit:   mov %eax, 0x01
         mov %ebx, 0x00
@@ -58,4 +64,5 @@ exit:   mov %eax, 0x01
         .ascii "Leave a message:\n"
     comment:
         .ascii "Your message is:\n"
-    message:
+    eol:
+        .ascii "\n"

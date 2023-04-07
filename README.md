@@ -81,3 +81,4 @@ vagrant ssh
 3. Pushing strings to stack
     - [32 bits](./32bit/pushToStack/)
 4. Read from stdin
+    - [32 bits](./32bit/readFromStdin/)

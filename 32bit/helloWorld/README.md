@@ -1,4 +1,4 @@
-# Hello World Excercise
+# Hello World Exercise
 
 For the first excercise, we'll create a program that prints "Hello World!" to the terminal
 
